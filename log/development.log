@@ -1,0 +1,26 @@
+Started GET "/" for ::1 at 2023-06-28 14:22:59 +0100
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 175.2ms | Allocations: 15111)
+Completed 500 Internal Server Error in 183ms (ActiveRecord: 0.0ms | Allocations: 17920)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-06-28 14:23:00 +0100
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 14)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3758)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4316)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:9
