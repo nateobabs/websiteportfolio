@@ -24,3 +24,10 @@ Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4
 LoadError (cannot load such file -- sassc):
   
 app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-06-28 14:34:30 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/nathanbabalogbon/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/nathanbabalogbon/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.5.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.0ms | Allocations: 637)
+Completed 200 OK in 25ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 7061)
+
+
