@@ -31,3 +31,83 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 25ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 7061)
 
 
+Started GET "/" for ::1 at 2023-06-28 15:00:30 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 321)
+  Rendered layout layouts/application.html.erb (Duration: 389.4ms | Allocations: 77534)
+Completed 200 OK in 396ms (Views: 392.6ms | ActiveRecord: 0.0ms | Allocations: 80031)
+
+
+Started GET "/" for ::1 at 2023-06-28 15:01:34 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2565)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 3298)
+
+
+Started GET "/about" for ::1 at 2023-06-28 15:02:31 +0100
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2062)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 2325)
+
+
+Started GET "/about" for ::1 at 2023-06-28 15:03:22 +0100
+Processing by PagesController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2549)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 3255)
+
+
+Started GET "/" for ::1 at 2023-06-28 15:03:29 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 98)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2093)
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2351)
+
+
+Started GET "/" for ::1 at 2023-06-28 22:40:56 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 336)
+  Rendered layout layouts/application.html.erb (Duration: 42.2ms | Allocations: 7304)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.0ms | Allocations: 9726)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2023-06-28 22:40:57 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 4085)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 4331)
+
+
+  
+LoadError (cannot load such file -- sassc):
+  
+app/views/layouts/application.html.erb:8
+Started GET "/" for ::1 at 2023-06-28 22:41:45 +0100
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 337)
+  Rendered layout layouts/application.html.erb (Duration: 7268.9ms | Allocations: 173798)
+Completed 200 OK in 7276ms (Views: 7272.6ms | ActiveRecord: 0.0ms | Allocations: 176295)
+
+
